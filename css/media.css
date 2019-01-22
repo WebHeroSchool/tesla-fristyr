@@ -1,0 +1,66 @@
+@media screen and (max-width: 320px) {
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 425px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .nav-models,
+    .nav-user__link:not(:last-child) {
+        display: none;
+    }
+    .header__nav-block {
+        margin-right: 77px;
+    }
+    .header__img {
+        margin-left: 50px;
+    }
+    .car-intro__name {
+        margin-top: 20px;
+    }
+    .car-intro__img {
+        width: 110%;
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+    .car-intro__features {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        max-width: 490px; 
+    }
+    .taho__info,
+    .path__info {
+        padding-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .stear-icon {
+        margin-left: 40px;
+    }
+
+    .car-intro__features__btn {
+        margin-right: 75px;
+        background-color: #E51937;
+        color: #fff;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1920px) {
+
+}
