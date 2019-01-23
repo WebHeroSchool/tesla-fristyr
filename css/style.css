@@ -135,8 +135,12 @@ a {
 
 .car-intro__features {
     display: inherit;
+    max-width: 660px;
+    width: 100%;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    padding-top: 5px;
 }
 
 .feature-details__params-speed,
@@ -144,7 +148,7 @@ a {
     font-family: "Montserrat" , sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;  
+    font-size: 25px;  
 }
 
 .feature-details__params-dist,
@@ -153,8 +157,10 @@ a {
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 12px;
+    font-size: 10px;
 }
+
+
 
 .feature-details__params-test,
 .car-intro__features__btn {
@@ -162,7 +168,7 @@ a {
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 13px;
+    font-size: 11px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -170,21 +176,48 @@ a {
 .feature-details__params {
     display: inherit;
     align-items: flex-start;
-    margin-right: 40px;
 }
 
 .taho__info {
     display: inline-block;
 }
 
+.path-param {
+    margin-left: 12px;
+}
+
+.path {
+    width: 20%;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.taho {
+    width: 25%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.stear-icon {
+    margin-left: 38px;
+}
+
+.stear-icon__img {
+    width: 20%;
+    padding-right: 5px;
+}
+
 .car-intro__features__btn {
-    margin-right: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-right: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 2px solid #E51937;
     color: #E51937;
+    width: 55px;
+    text-align: center;
 }
 
 .car-intro__arrow-down {
