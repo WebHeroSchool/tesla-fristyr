@@ -1,3 +1,13 @@
+@media screen and (max-width: 1440px) {
+    .header__img{
+        margin-left: 65px;
+    }
+    .nav-user  {
+        margin-left: 29px;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
     .nav-models,
     .nav-user__link:not(:last-child) {
@@ -8,19 +18,20 @@
         justify-content: space-around;
     }
     .header__nav-block {
-        margin-right: 24px;
+        margin-right: 130px;
+        margin-top: 5px;
     }
     
     .header__img {
         width: 13%;
-        margin-left: 6px;
+        margin-left: 110px;
     }
     .car-intro__img {
         width: 82%;
         margin-top: -15px;
         margin-bottom: 32px
     }
-    .car-intro__name-title {
+    .car-intro_name-title {
         margin-top: 18px;
     }
     .car-intro__features {
@@ -82,7 +93,149 @@
     .feature-details__params-length {
         font-size: 32px;
     }
-}
+
+    .car-info {
+        flex-direction: column;
+        max-width: 616px;
+    }
+
+    .car-info__inner {
+        padding-top: 0;
+    }
+
+    .car-info__inner-img {
+        margin-top: -3px;
+        width: 100%;
+    }
+
+    .car-info__inner-name {
+        padding-top: 27px;
+        text-align: right;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+
+    .car-info__benefits {
+        max-width: 616px;
+        width: 100%;
+
+    }
+    .specs-wrapp {
+        display: flex;
+    }
+    .car-info__benefits-title {
+        margin-left: 28px;
+        font-size: 22px;
+        padding-bottom: 18px;
+        font-size: 24px;
+        padding-top: 43px;
+    }
+    .car-info__benefits-text {
+        margin-left: 29px;
+        font-size: 12px;
+        padding-right: 65px;
+        max-width: 376px;
+    }
+
+    .specs-wrapp__elements {
+        padding-top: 48px;
+    }
+    .specs-review__benefits, 
+    .specs-review__soft, 
+    .specs-review__volume {
+        margin-left: 35px;
+    }
+    .benefits-specs, 
+    .soft-specs, 
+    .volume-specs {
+        padding-left: 20px;
+    }
+    .specs-review__benefits {
+        padding-bottom: 12px;
+    }
+    .specs-review__soft {
+        padding-bottom: 15px;
+        margin-left: 29px;
+    }
+
+    .soft-icon__wifi {
+        width: 14%;
+    }
+    .specs-review__volume {
+        margin-bottom: 60px;
+    }
+    .find-moore {
+        max-width: 365px;
+        margin: 0 auto;
+        padding-bottom: 42px;
+    }
+    .find-moore__btn-read {
+        padding-right: 37px;
+        padding-left: 33px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .find-moore__btn-read::before {
+        left: -1px;
+        top: -2px;
+    }
+    .find-moore__btn-order {
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .extern-info {
+        max-width: 616px;
+        flex-direction: column;
+    }
+
+    .extern-info__benefits {
+        order: 2;
+        max-width: 100%;
+    }
+
+    .extern-info__benefits-wrapp {
+        display: flex;
+    }
+    .extern-info_overview-img {
+        width: 100%;
+        background-size: 85%;
+        margin-left: -20px;
+        margin-top: 58px;
+        margin-bottom: 20px;
+        padding-top: 0px;
+    }
+    .extern-info__benefits-wrapp_text {
+        max-width: 316px;
+        padding-left: 28px;
+    }
+    .extern-info__benefits {
+        padding-left: 0;
+    }
+    .extern-info__benefits-wrapp {
+        padding-top: 7px;
+    }
+    .def-params {
+        padding-top: 1px;
+        margin-left: -4px;
+        padding-bottom: 57px;
+    }
+    .def-params__name_raiting {
+        margin-left: 22px;
+    }
+
+    .extern-info__raiting {
+        display: none;
+    }
+
+    .find-moore_extern {
+        padding-bottom: 53px;
+    }
+
 
 @media screen and (max-width: 768px) {
     .header {
@@ -132,30 +285,42 @@
 
 }
 
+@media screen and (max-width: 425px) {
+
+}
+
+@media screen and (max-width: 375px) {
+    
+}
+
 
 @media screen and (max-width: 320px) {
     .header {
         justify-content: space-between;
-        margin-top: 0;
         margin-bottom: 20px;
     }
     .header__img {
         width: 33%;
         max-height: 40px;
         margin-left: 14px;
-        margin-top: 0;
+        margin-top: 5px;
     }
     .header__nav-block {
         margin-right: 25px;
     }
-    .car-intro__name-title {
+
+    .car-intro__img  {
+        width: 100%;
+        margin-top: 2px;
+    }
+    .car-intro_name-title {
         font-size: 40px;
         margin-top: 0;
     }
     .car-intro__name {
         margin-top: 0;
     }
-    .car-intro__name-subtitle {
+    .car-intro_name-subtitle {
         font-size: 8px;
         margin-top: 0;
     }
@@ -198,21 +363,24 @@
         margin-right: 24px;
     }
     .stear-icon__img {
-        position: relative;
         padding-right: 0;
-    }
-
-    .stear-icon__img::after {
-        position: absolute;
-        content: '';
-        width: 21px;
-        height: 21px;
-        background: url(../img/steering-wheel_red.svg);
     }
     .stear-icon {
         margin-top: 0;
         margin-left: 23px;
     }
+    .car-info__inner-name,
+    .specs-wrapp__elements,
+    .def-params,
+    .find-moore {
+        display: none;
+    }
+
+    .header {
+        margin-top: 0;
+    }
+
+
     
 }
 
