@@ -12,7 +12,7 @@ body {
     padding: 0;
     color: #000000;
     font-family: "Montserrat", sans-serif;
-    max-width: 1280px;
+    max-width: 1440px;
     min-width: 320px;
     margin: 0 auto
 }
@@ -156,11 +156,17 @@ a {
 
 .feature-details__params-dist,
 .feature-details__params-range {
+    display: block;
     font-family: "Montserrat" , sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
     font-size: 10px;
+}
+
+.feature-details__params-speed span,
+.feature-details__params-length span {
+    font-size: 16px;
 }
 
 
@@ -236,7 +242,7 @@ a {
 .car-info {
     display: flex;
     flex-direction: row;
-    max-width: 1150px;
+    max-width: 1440px;
     margin: 0 auto;
     margin-top: 5px;
 }
@@ -413,7 +419,7 @@ a {
 .extern-info {
     display: flex;
     flex-direction: row;
-    max-width: 1150px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 

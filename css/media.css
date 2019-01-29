@@ -1,9 +1,68 @@
 @media screen and (max-width: 1440px) {
+    .header {
+        padding-left: 110px;
+        padding-right: 80px;
+        margin-top: 18px;
+    }
+    .nav-models__link, 
+    .nav-user__link {
+        font-size: 14px;
+    }
+
     .header__img{
         margin-left: 65px;
     }
     .nav-user {
         margin-left: 29px;
+    }
+
+    .car-intro__img {
+        width: 80%;
+        margin-top: -98px;
+    }
+
+    .taho {
+        padding-top: 7px;
+        padding-right: 14px;
+    }
+    .path {
+        padding-right: 0px;
+        margin-right: 10px;
+    }
+    .path-param {
+        margin-left: 28px;
+    }
+
+    .stear-icon {
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    .feature-details__params-test {
+        padding-top: 5px;
+    }
+    .car-intro__features__btn {
+        margin-top: 5px;
+    }
+    .car-intro__arrow-down {
+        margin-top: 10px;
+    }
+    .car-info {
+        width: 80%;
+        margin-top: 2px;
+    }
+    .car-info__benefits-title {
+        font-size: 24px;
+        padding-bottom: 9px;
+    }
+    .car-info__benefits-text {
+        padding-right: 50px;
+        font-size: 12px;
+    }
+    .volume-specs__space {
+        margin-top: -5px;
+    }
+    .extern-info {
+        width: 80%;
     }
 }
 
@@ -240,6 +299,8 @@
 @media screen and (max-width: 768px) {
     .header {
         justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
     }
     .header__img {
         width: 17%;
@@ -274,13 +335,19 @@
         margin-bottom: 40px;
     }
 
-
-
     .car-intro__features__btn {
         margin-right: 40px;
         margin-top: 7px;
         background-color: #E51937;
         color: #fff;
+    }
+    .car-info,
+    .car-info__benefits,
+    .extern-info {
+        max-width: 768px;
+        width: 100%;
+        margin: 0;
+
     }
 
 }
