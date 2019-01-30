@@ -75,6 +75,8 @@
 
     .header {
         justify-content: space-around;
+        padding-left: 0;
+        padding-right: 0;
     }
     .header__nav-block {
         margin-right: 130px;
@@ -83,7 +85,10 @@
     
     .header__img {
         width: 13%;
-        margin-left: 110px;
+        margin-left: 0;
+    }
+    .nav-user {
+        margin-right: 0;
     }
     .car-intro__img {
         width: 82%;
@@ -160,6 +165,8 @@
 
     .car-info__inner {
         padding-top: 0;
+        width: 100%;
+        max-width: 1024px;
     }
 
     .car-info__inner-img {
@@ -195,6 +202,9 @@
         font-size: 12px;
         padding-right: 65px;
         max-width: 376px;
+    }
+    .specs-wrapp__naming {
+        margin-left: 90px;
     }
 
     .specs-wrapp__elements {
@@ -259,6 +269,7 @@
 
     .extern-info__benefits-wrapp {
         display: flex;
+        margin-left: 120px;
     }
     .extern-info_overview-img {
         width: 100%;
@@ -280,7 +291,7 @@
     }
     .def-params {
         padding-top: 1px;
-        margin-left: -4px;
+        margin-left: 100px;
         padding-bottom: 57px;
     }
     .def-params__name_raiting {
@@ -294,6 +305,13 @@
     .find-moore_extern {
         padding-bottom: 53px;
     }
+    .car-info,
+    .car-info__benefits,
+    .extern-info {
+        max-width: 1024px;
+        width: 100%;
+    }
+
 
 
 @media screen and (max-width: 768px) {
@@ -319,7 +337,7 @@
         margin-top: 5px;
     }
     .car-intro__img {
-        width: 108%;
+        width: 100%;
         margin-top: -11px;
         margin-bottom: 35px;
     }
@@ -347,17 +365,50 @@
         max-width: 768px;
         width: 100%;
         margin: 0;
-
     }
+    .specs-wrapp__naming {
+        margin-left: 10px;
+    }
+    .extern-info__benefits-wrapp {
+        margin-left: 10px;
+    }
+    .def-params {
+        margin-left: 50px;
+    }
+
 
 }
 
-@media screen and (max-width: 425px) {
-
+@media screen and (max-width: 426px) {
+    .header__img {
+        margin-left: 5px;
+        width: 25%;
+    }
+    .nav-user {
+        margin-right: 15px;
+    }
+    .car-info__inner-name,
+    .specs-wrapp__elements,
+    .def-params,
+    .find-moore {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 375px) {
-    
+    .header__img {
+        margin-left: 0px;
+        width: 25%;
+    }
+    .nav-user {
+        margin-right: 10px;
+    }
+    .car-info__inner-name,
+    .specs-wrapp__elements,
+    .def-params,
+    .find-moore {
+        display: none;
+    }
 }
 
 
