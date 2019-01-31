@@ -27,13 +27,22 @@ a {
 .header,
 .header__nav,
 .header__nav-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .header {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 14px;
     margin-bottom: 47px;
 }
@@ -45,7 +54,9 @@ a {
 }
 
 .header__nav-block {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 110px;
 }
 
@@ -53,22 +64,9 @@ a {
     margin-left: 150px;
 }
 
-.nav-models__link:first-child {
-    padding-right: 35px;
+.nav-models__link:not(:last-child) {
+    padding-right: 30px;
 }
-
-.nav-models__link:nth-child(2) {
-    padding-right: 10px;
-}
-
-.nav-models__link:nth-child(3) {
-    padding-right: 25px;
-}
-
-.nav-models__link:nth-child(4) {
-    padding-right: 20px;
-}
-
 .nav-user__link:not(:last-child) {
     padding-right: 12px;
 }
@@ -106,9 +104,16 @@ a {
 
 /*----------FIRST SECTION START----------*/
 .car-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .car-intro_name-title,
@@ -140,9 +145,16 @@ a {
     display: inherit;
     max-width: 660px;
     width: 100%;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 5px;
 }
 
@@ -169,7 +181,9 @@ a {
     font-size: 16px;
 }
 
-
+.feature-details__params-test {
+    padding-top: 5px;
+}
 
 .feature-details__params-test,
 .car-intro__features__btn {
@@ -184,7 +198,9 @@ a {
 
 .feature-details__params {
     display: inherit;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 
 .taho__info {
@@ -240,9 +256,14 @@ a {
 /*----------SECOND SECTION START----------*/
 
 .car-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    max-width: 1440px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    
     margin: 0 auto;
     margin-top: 5px;
 }
@@ -301,8 +322,13 @@ a {
 .specs-review__benefits,
 .specs-review__soft,
 .specs-review__volume {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     margin-left: 43px;
 }
 
@@ -417,9 +443,14 @@ a {
 /*----------THIRD SECTION START----------*/
 
 .extern-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    max-width: 1440px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    
     margin: 0 auto;
 }
 
@@ -449,8 +480,13 @@ a {
 }
 
 .def-params {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     max-width: 240px;
     padding-bottom: 80px;
 }
@@ -473,9 +509,15 @@ a {
 }
 
 .def-params__name {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
@@ -488,6 +530,8 @@ a {
 }
 
 .extern-info__raiting {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-left: 5px;
     padding-bottom: 45px;
@@ -519,7 +563,6 @@ a {
     margin-top: 116px;
     padding-top: 25px;
 }
-
 
 
 
