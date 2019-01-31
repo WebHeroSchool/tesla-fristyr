@@ -24,6 +24,10 @@ a {
 
 /*----------HEADER START----------*/
 
+.container {
+    height: 100vh;
+}
+
 .header,
 .header__nav,
 .header__nav-block {
@@ -114,6 +118,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    
 }
 
 .car-intro_name-title,
