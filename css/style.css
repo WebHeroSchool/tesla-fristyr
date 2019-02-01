@@ -24,9 +24,7 @@ a {
 
 /*----------HEADER START----------*/
 
-.container {
-    height: 100vh;
-}
+
 
 .header,
 .header__nav,
@@ -118,6 +116,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: calc(100vh - 108px);
     
 }
 
@@ -271,6 +270,7 @@ a {
     
     margin: 0 auto;
     margin-top: 5px;
+    height: 100vh;
 }
 
 .car-info__inner {
@@ -457,6 +457,7 @@ a {
             flex-direction: row;
     
     margin: 0 auto;
+    height: 100vh;
 }
 
 .extern-info__benefits {
