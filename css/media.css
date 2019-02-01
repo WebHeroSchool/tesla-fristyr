@@ -385,7 +385,7 @@
     }
 
     .car-intro__features__btn {
-        margin-right: 40px;
+        margin-right: 20px;
         margin-top: 7px;
         background-color: #E51937;
         color: #fff;
@@ -438,6 +438,7 @@
     .nav-user {
         margin-right: 10px;
     }
+
     .car-info__inner-name,
     .specs-wrapp__elements,
     .def-params,
