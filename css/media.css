@@ -1,6 +1,7 @@
 @media screen and (max-width: 1440px) {
     .header {
-
+        margin-left: 40px;
+        margin-right: 40px;
         margin-top: 18px;
     }
     .nav-models__link, 
@@ -8,9 +9,7 @@
         font-size: 14px;
     }
 
-    .header__img{
-        margin-left: 65px;
-    }
+
     .nav-user {
         margin-left: 29px;
     }
@@ -47,7 +46,7 @@
         margin-top: 10px;
     }
     .car-info {
-        width: 80%;
+        width: 1152px;
         margin-top: 2px;
     }
     .car-info__benefits-title {
@@ -62,7 +61,7 @@
         margin-top: -5px;
     }
     .extern-info {
-        width: 80%;
+        width: 1152px;
     }
     .specs-review__volume {
         margin-bottom: 90px;
@@ -85,15 +84,7 @@
         padding-right: 0;
     }
     .header__nav-block {
-        margin-right: 30px;
         margin-top: 5px;
-    }
-    .header__img {
-        margin-left: 30px;
-    }
-
-    .nav-user {
-        margin-right: 30px;
     }
     .car-intro {
         height: auto;
@@ -334,7 +325,7 @@
     .car-info__benefits,
     .extern-info {
         max-width: 1024px;
-        width: 100%;
+        
     }
 
 
@@ -346,20 +337,17 @@
                 justify-content: space-between;
         padding-left: 0;
         padding-right: 0;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .header__img {
-        max-width: 138px;
-        width: 30%;
+        width: 140px;
         margin-top: 6px;
         max-height: 40px;
-        margin-left: 10px;
     }
     .nav-models,
     .nav-user__link:not(:last-child) {
         display: none;
-    }
-    .header__nav-block {
-        margin-right: 30px;
     }
     .car-intro__name {
         margin-top: 5px;
@@ -413,18 +401,21 @@
 @media screen and (max-width: 426px) {
     .header {
         margin-bottom: 0;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .header__img {
+        width: 120px;
         margin-left: 0;
-    }
-    .nav-user {
-        margin-right: 15px;
     }
     .car-info__inner-name,
     .specs-wrapp__elements,
     .def-params,
     .find-moore {
         display: none;
+    }
+    .car-intro_name-title {
+        font-size: 60px;
     }
 }
 
@@ -434,9 +425,6 @@
     }
     .header__img {
         margin-left: 0;
-    }
-    .nav-user {
-        margin-right: 10px;
     }
 
     .car-info__inner-name,
@@ -456,12 +444,8 @@
         margin-bottom: 30px;
     }
     .header__img {
-        max-height: 40px;
-        margin-left: 14px;
+        width: 90px;
         margin-top: 5px;
-    }
-    .header__nav-block {
-        margin-right: 25px;
     }
 
     .car-intro__img  {

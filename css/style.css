@@ -50,8 +50,8 @@ a {
 }
 
 .header__img {
-    margin-left: 100px;
-    width: 10%;
+    max-width: 170px;
+    width: 166px;
     margin-top: 5px;
 }
 
@@ -59,7 +59,6 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-right: 110px;
 }
 
 .nav-models {
