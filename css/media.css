@@ -417,6 +417,9 @@
     .car-intro_name-title {
         font-size: 60px;
     }
+    .car-intro {
+        height: calc(100vh - 60px);
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -482,7 +485,7 @@
     }
     .car-intro__features {
         max-width: 295px;
-        margin-bottom: 3px;
+        margin-bottom: 80px;
     }
     .taho__info, 
     .path__info {

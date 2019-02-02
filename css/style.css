@@ -61,9 +61,7 @@ a {
             align-items: center;
 }
 
-.nav-models {
-    margin-left: 150px;
-}
+
 
 .nav-models__link:not(:last-child) {
     padding-right: 30px;
