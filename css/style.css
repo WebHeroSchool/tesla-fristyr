@@ -113,24 +113,24 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: calc(100vh - 108px);
+    height: calc(100vh - 80px);
     
 }
 
-.car-intro_name-title,
-.car-intro_name-subtitle {
+.intro__title,
+.intro__subtitle {
     font-family: "Montserrat" , sans-serif;
     font-style: normal;
     color: #000000;
     text-align: center;
 }
 
-.car-intro_name-title {
+.intro__title {
     font-weight: 600;
     font-size: 75px;
 }
 
-.car-intro_name-subtitle {
+.intro__subtitle {
     font-weight: 500;
     font-size: 12px;
     margin-top: -9px;
@@ -159,16 +159,16 @@ a {
     padding-top: 5px;
 }
 
-.feature-details__params-speed,
-.feature-details__params-length {
+.taho-specs__speed,
+.path-specs__length {
     font-family: "Montserrat" , sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 25px;  
 }
 
-.feature-details__params-dist,
-.feature-details__params-range {
+.taho-specs__dist,
+.path-specs__range {
     display: block;
     font-family: "Montserrat" , sans-serif;
     font-style: normal;
@@ -177,16 +177,16 @@ a {
     font-size: 10px;
 }
 
-.feature-details__params-speed span,
-.feature-details__params-length span {
+.taho-specs__speed span,
+.path-specs__length span {
     font-size: 16px;
 }
 
-.feature-details__params-test {
+.params__test {
     padding-top: 5px;
 }
 
-.feature-details__params-test,
+.params__test,
 .car-intro__features__btn {
     font-family: "Montserrat" , sans-serif;
     font-style: normal;
@@ -197,7 +197,7 @@ a {
     text-transform: uppercase;
 }
 
-.feature-details__params {
+.params {
     display: inherit;
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -302,7 +302,7 @@ a {
     font-size: 55px;
 }
 
-.car-info__benefits-title {
+.specs-naming__title {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -312,7 +312,7 @@ a {
     padding-bottom: 5px;
 }
 
-.car-info__benefits-text {
+.specs-naming__text {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -467,14 +467,14 @@ a {
     padding-left: 45px
 }
 
-.extern-info__benefits-title {
+.benefits-specs__title{
     padding-bottom: 10px;
     font-size: 22px;
     letter-spacing: 1px;
     line-height: 29px;
 }
 
-.extern-info__benefits-descript {
+.benefits-specs__descript {
     font-style: normal;
     font-weight: 400;
     line-height: 15px;
@@ -533,7 +533,7 @@ a {
     margin-left: -10px;
 }
 
-.extern-info__raiting {
+.raiting {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -541,13 +541,13 @@ a {
     padding-bottom: 45px;
 }
 
-.extern-info__raiting-title {
+.raiting__title {
     font-size: 39px;
     font-weight: 600;
     padding-left: 17px;
 }
 
-.extern-info__raiting-title span {
+.raiting__title span {
 	display: block;
     font-size: 20px;
     font-weight: 400;
