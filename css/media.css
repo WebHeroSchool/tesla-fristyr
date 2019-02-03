@@ -46,7 +46,7 @@
         margin-top: 10px;
     }
     .car-info {
-        width: 1152px;
+        
         margin-top: 2px;
     }
     .car-info__benefits-title {
@@ -61,7 +61,7 @@
         margin-top: -5px;
     }
     .extern-info {
-        width: 1152px;
+      
     }
     .specs-review__volume {
         margin-bottom: 90px;
@@ -179,12 +179,12 @@
         max-width: 1024px;
     }
 
-    .car-info__inner-img {
+    .inner__img {
         margin-top: -3px;
         width: 100%;
     }
 
-    .car-info__inner-name {
+    .inner__name {
         padding-top: 27px;
         text-align: right;
         padding-right: 0px;
@@ -337,7 +337,7 @@
     }
 
     .find-moore_extern {
-        padding-bottom: 53px;
+        margin-bottom: 53px;
     }
     .car-info,
     .car-info__benefits,
@@ -426,7 +426,7 @@
         width: 120px;
         margin-left: 0;
     }
-    .car-info__inner-name,
+    .inner__name,
     .specs-wrapp__elements,
     .def-params,
     .find-moore {
@@ -448,7 +448,7 @@
         margin-left: 0;
     }
 
-    .car-info__inner-name,
+    .inner__name,
     .specs-wrapp__elements,
     .def-params,
     .find-moore {
@@ -529,7 +529,7 @@
         margin-top: 0;
         margin-left: 23px;
     }
-    .car-info__inner-name,
+    .inner__name,
     .specs-wrapp__elements,
     .def-params,
     .find-moore {

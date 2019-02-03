@@ -285,13 +285,13 @@ a {
     font-family: "Montserrat" , sans-serif;
 }
 
-.car-info__inner-img {
+.inner__img {
     margin-bottom: -5px;
     margin-top: 54px;
     width: 127%;
 }
 
-.car-info__inner-name {
+.inner__name {
     font-family: "Montserrat" , sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -460,6 +460,7 @@ a {
 .extern-info__benefits {
     max-width: 308px;
     width: 100%;
+    height: 100%;
     background-color: #E51937;
     color: #fff;
     padding-top: 44px;
