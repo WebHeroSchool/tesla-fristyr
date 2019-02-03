@@ -90,12 +90,16 @@
         height: auto;
     }
     .car-intro__img {
-        width: 82%;
+        width: 100%;
         margin-top: -15px;
         margin-bottom: 32px
     }
     .car-intro_name-title {
         margin-top: 18px;
+        font-size: 100px;
+    }
+    .car-intro_name-subtitle {
+        font-size: 14px;
     }
     .car-intro__features {
         -webkit-box-pack: justify;
@@ -200,14 +204,14 @@
     }
     .car-info__benefits-title {
         margin-left: 28px;
-        font-size: 22px;
+        font-size: 32px;
         padding-bottom: 18px;
         font-size: 24px;
         padding-top: 43px;
     }
     .car-info__benefits-text {
         margin-left: 29px;
-        font-size: 12px;
+        font-size: 15px;
         padding-right: 65px;
         max-width: 376px;
     }
@@ -280,6 +284,12 @@
                 order: 2;
         max-width: 100%;
     }
+    .extern-info__benefits-title {
+        font-size: 32px;
+    }
+    .extern-info__benefits-descript {
+        font-size: 16px;
+    }
 
     .extern-info__benefits-wrapp {
         display: -webkit-box;
@@ -296,7 +306,7 @@
         padding-top: 0px;
     }
     .extern-info__benefits-wrapp_text {
-        max-width: 316px;
+        max-width: 370px;
         padding-left: 28px;
     }
     .extern-info__benefits {
@@ -306,12 +316,20 @@
         padding-top: 7px;
     }
     .def-params {
+        max-width: 290px;
         padding-top: 1px;
         margin-left: 100px;
         padding-bottom: 57px;
+
+    }
+    .def-params__title {
+        font-size: 30px;
     }
     .def-params__name_raiting {
         margin-left: 22px;
+    }
+    .def-params__name small {
+        margin-left: -30px;
     }
 
     .extern-info__raiting {
@@ -463,7 +481,7 @@
         margin-top: 0;
     }
     .car-intro_name-subtitle {
-        font-size: 8px;
+        font-size: 8px ;
         margin-top: 0;
     }
 
