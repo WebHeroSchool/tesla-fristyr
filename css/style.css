@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*----------HEADER START----------*/
+
+
+
+.header,
+.header__nav,
+.header__nav-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 14px;
+    margin-bottom: 47px;
+}
+
+.header__img {
+    max-width: 170px;
+    width: 166px;
+    margin-top: 5px;
+}
+
+.header__nav-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+
+.nav-models__link:not(:last-child) {
+    padding-right: 30px;
+}
+.nav-user__link:not(:last-child) {
+    padding-right: 12px;
+}
+
+.nav-user__link-burger {
+    padding-top: 5px;
+}
+
+.nav-models__link,
+.nav-user__link {
+    font-family: "Montserrat" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+   
+    font-size: 15px;
+    color: #000000;
+}
+
+.active-link {
+    position: relative;
+    color: #E51937; 
+}
+
+.active-link::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    min-width: 60px;
+    height: 4px;
+    background: url(../img/active-link__svg.svg) no-repeat; 
+    cursor: pointer;
+}
+
+/*----------HEADER END----------*/
+
+/*----------FIRST SECTION START----------*/
+.car-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: calc(100vh - 108px);
+    
+}
+
+.car-intro_name-title,
+.car-intro_name-subtitle {
+    font-family: "Montserrat" , sans-serif;
+    font-style: normal;
+    color: #000000;
+    text-align: center;
+}
+
+.car-intro_name-title {
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.car-intro_name-subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+.car-intro__img {
+    width: 90%;
+    margin-top: -93px;
+    margin-bottom: 15px;
+}
+
+.car-intro__features {
+    display: inherit;
+    max-width: 660px;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 5px;
+}
+
+.feature-details__params-speed,
+.feature-details__params-length {
+    font-family: "Montserrat" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;  
+}
+
+.feature-details__params-dist,
+.feature-details__params-range {
+    display: block;
+    font-family: "Montserrat" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 10px;
+}
+
+.feature-details__params-speed span,
+.feature-details__params-length span {
+    font-size: 16px;
+}
+
+.feature-details__params-test {
+    padding-top: 5px;
+}
+
+.feature-details__params-test,
+.car-intro__features__btn {
+    font-family: "Montserrat" , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.feature-details__params {
+    display: inherit;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+.taho__info {
+    display: inline-block;
+}
+
+.path-param {
+    margin-left: 12px;
+}
+
+.path {
+    width: 20%;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.taho {
+    width: 25%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.stear-icon {
+    margin-left: 38px;
+}
+
+.stear-icon__img {
+    width: 20%;
+    padding-right: 5px;
+}
+
+.car-intro__features__btn {
+    margin-right: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #E51937;
+    color: #E51937;
+    width: 55px;
+    text-align: center;
+}
+
+.car-intro__arrow-down {
+    width: 60px;
+    height: 60px;
+    background: url(../img/arrow-fown.svg) no-repeat center center;
+}
+
+/*----------FIRST SECTION END----------*/
+
+/*----------SECOND SECTION START----------*/
+
+.car-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 100vh;
+}
+
+.car-info__inner {
+    max-width: 1000px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 17px;
+}
+
+.car-info__benefits {
+    max-width: 440px;
+    width: 44%;
+    background-color: #E51937;
+    color: #ffffff;
+    font-family: "Montserrat" , sans-serif;
+}
+
+.car-info__inner-img {
+    margin-bottom: -5px;
+    margin-top: 54px;
+    width: 127%;
+}
+
+.car-info__inner-name {
+    font-family: "Montserrat" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #E51937;
+    margin-left: 65px;
+    padding-top: 33px;
+    font-size: 55px;
+}
+
+.car-info__benefits-title {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 26px;
+    margin-left: 43px;
+    padding-top: 42px;
+    padding-bottom: 5px;
+}
+
+.car-info__benefits-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 43px;
+    line-height: 15px;
+    padding-bottom: 55px;
+}
+
+.specs-review__benefits,
+.specs-review__soft,
+.specs-review__volume {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 43px;
+}
+
+.benefits-icon_screen,
+.soft-icon__wifi,
+.volume-icon__bag {
+    width: 10%;
+}
+
+.benefits-specs,
+.soft-specs,
+.volume-specs {
+    padding-left: 15px;
+}
+
+.specs-review__benefits {
+    padding-bottom: 20px;
+}
+
+.specs-review__soft {
+    padding-bottom: 20px;
+}
+
+.benefits-specs__display {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.benefits-specs__display b{
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 8px;
+}
+
+.benefits-specs__dimension {
+    font-size: 10px;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.soft-specs__updates {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 16px;
+    padding-right: 42px;
+}
+
+.soft-specs__func {
+    display: block;
+    padding-right: 92px;
+    font-size: 10px;
+}
+
+.volume-specs__name b{
+    font-size: 30px;
+}
+
+.volume-specs__space {
+    display: block;
+    font-size: 10px;
+    padding-right: 99px;
+}
+
+.specs-review__volume {
+    margin-bottom: 138px;
+}
+
+.find-moore {
+    margin-left: 44px;
+}
+
+.find-moore__btn-read {
+    position: relative;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.find-moore__btn-read::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: -3px;
+    width: 22px;
+    height: 22px;
+    background: url(../img/info-icon.svg)
+}
+.find-moore__btn-order {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -3px;
+}
+/*----------SECOND SECTION END----------*/
+
+/*----------THIRD SECTION START----------*/
+
+.extern-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.extern-info__benefits {
+    max-width: 308px;
+    width: 100%;
+    background-color: #E51937;
+    color: #fff;
+    padding-top: 44px;
+    padding-left: 45px
+}
+
+.extern-info__benefits-title {
+    padding-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 29px;
+}
+
+.extern-info__benefits-descript {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    font-size: 13px;
+    padding-right: 40px;
+    padding-bottom: 48px;
+}
+
+.def-params {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 240px;
+    padding-bottom: 80px;
+}
+
+.def-params__title {
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.def-params span:not(:last-child) {
+    padding-bottom: 8px;
+}
+
+.def-params__name_raiting {
+    display: inline-block;
+    width: 124px;
+    height: 22px;
+    background: url(../img/Star.svg) ;
+}
+
+.def-params__name {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.def-params__name  small{
+    font-size: 9px;
+    display: block;
+    margin-left: -10px;
+}
+
+.extern-info__raiting {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 45px;
+}
+
+.extern-info__raiting-title {
+    font-size: 39px;
+    font-weight: 600;
+    padding-left: 17px;
+}
+
+.extern-info__raiting-title span {
+	display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -8px;
+}
+
+.find-moore_extern {
+    margin-left: -11px;
+    padding-bottom: 50px;
+}
+
+.extern-info_overview-img {
+    width: 104%;
+    background: url(../img/tesla-exterior-bg.png) no-repeat right top;
+    background-size: 72%;
+    margin-left: -74px;
+    margin-top: 116px;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
