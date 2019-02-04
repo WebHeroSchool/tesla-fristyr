@@ -37,44 +37,44 @@
     </header>
     <main class="container">
         <section class="car-intro">
-            <div class="car-intro__name">
-                <h1 class="car-intro_name-title">Model S</h1>
-                <h2 class="car-intro_name-subtitle">Добро пожаловать в будущее</h2>
+            <div class="car-intro__name intro">
+                <h1 class="intro__title">Model S</h1>
+                <h2 class="car-intro_name-subtitle intro__subtitle">Добро пожаловать в будущее</h2>
             </div>
             <img src="img/tesla-with-logo.png" alt="Model S" class="car-intro__img">
             <div class="car-intro__features feature-details">
-                <div class="feature-details__params">
-                    <img src="img/taho.svg" alt="" class="feature-details__params-icon taho">
-                    <div class="taho__info">
-                        <span class="feature-details__params-speed">2.7 <span>сек</span> <br></span>
-                        <span class="feature-details__params-dist">0-100 км/час</span>
+                <div class="params">
+                    <img src="img/taho.svg" alt="" class="params__icon taho">
+                    <div class="taho__info taho-specs">
+                        <span class="taho-specs__speed">2.7 <span>сек</span> <br></span>
+                        <span class="taho-specs__dist">0-100 км/час</span>
                     </div>
                 </div>
-                <div class="feature-details__params path-param">
-                    <img src="img/path.svg" alt="" class="feature-details__params-icon path">
-                    <div class="path__info">
-                        <span class="feature-details__params-length">632 <span>км</span> <br></span>
-                        <span class="feature-details__params-range">Запас хода</span>
+                <div class="params path-param">
+                    <img src="img/path.svg" alt="" class="params__icon path">
+                    <div class="path__info path-specs">
+                        <span class="path-specs__length">632 <span>км</span> <br></span>
+                        <span class="path-specs__range">Запас хода</span>
                     </div>
                 </div>
-                <div class="feature-details__params stear-icon">
+                <div class="params stear-icon">
                     <img src="img/steering-wheel.svg" alt="" class="stear-icon__img">
-                    <span class="feature-details__params-test">Тест драйв</span>
+                    <span class="params__test">Тест драйв</span>
                 </div>
                 <a href="#" class="car-intro__features__btn">Заказать</a>
             </div>
             <a href="#" class="car-intro__arrow-down"></a>
         </section>
         <section class="car-info">
-            <div class="car-info__inner">
-                <h2 class="car-info__inner-name">Model S</h2>
-                <img src="img/tesla-inner.jpg" alt="Tesla Salon" class="car-info__inner-img">
+            <div class="car-info__inner inner">
+                <h2 class="inner__name">Model S</h2>
+                <img src="img/tesla-inner.jpg" alt="Tesla Salon" class="inner__img">
             </div>
             <div class="car-info__benefits">
                 <div class="specs-wrapp">
-                    <div class="specs-wrapp__naming">
-                        <h3 class="car-info__benefits-title">Будущее вождения</h3>
-                        <p class="car-info__benefits-text">
+                    <div class="specs-wrapp__naming specs-naming">
+                        <h3 class="specs-naming__title">Будущее вождения</h3>
+                        <p  class="specs-naming__text">
                             Модель S обладает лучшей в своем классе вместимостью: 
                             в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. 
                             Усовершенствованная шумовая инженерия создает динамику звука, сравнимую с студией звукозаписи, а стеклянная 
@@ -91,7 +91,7 @@
                         </div>
                         <div class="specs-review__soft">
                             <img src="img/wifi.svg" alt="Connections" class="soft-icon__wifi">
-                            <div class="soft-specs">
+                            <div class="soft-specs soft-specs_updates">
                                 <span class="soft-specs__updates">Беспроводное обновление ПО<br></span>
                                 <span class="soft-specs__func">Повышенная функциональность</span>
                             </div>  
@@ -114,16 +114,16 @@
     </main>
     <section class="extern-info">
         <div class="extern-info__benefits">
-            <div class="extern-info__benefits-wrapp">
-                <div class="extern-info__benefits-wrapp_text">
-                    <h3 class="extern-info__benefits-title">Самый безопасный автомобиль в мире</h3>
-                    <p class="extern-info__benefits-descript">
+            <div class="benefits">
+                <div class="benefits-specs">
+                    <h3 class="benefits-specs__title">Самый безопасный автомобиль в мире</h3>
+                    <p class="benefits-specs__descript">
                         Модель S достигла наивысшей оценки безопасности любого автомобиля, 
                         когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных
                         случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
                     </p> 
                 </div>
-                <div class="extern-info__benefits-defense def-params">
+                <div class="benefits-specs def-params">
                     <h3 class="def-params__title">Оценка защиты: </h3>
                     <span class="def-params__name">Спереди <span class="def-params__name_raiting"></span> </span>
                     <span class="def-params__name">Сбоку <span class="def-params__name_raiting"></span> </span>
@@ -132,12 +132,12 @@
                     <span class="def-params__name">Пассажир <span class="def-params__name_raiting"></span> </span>
                 </div>
             </div>
-            <div class="extern-info__raiting">
+            <div class="raiting">
                 <svg width="55" height="70" viewBox="0 0 62 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M61.9204 19.0536C61.8825 17.0557 61.8464 15.1683 61.8464 13.3424C61.8464 11.9119 60.6904 10.7522 59.2637 10.7522C48.2184 10.7522 39.8089 7.56873 32.7991 0.73341C31.7963 -0.244643 30.2006 -0.244297 29.1982 0.73341C22.1891 7.56873 13.7809 10.7522 2.73633 10.7522C1.31 10.7522 0.153644 11.9119 0.153644 13.3424C0.153644 15.1687 0.117831 17.0567 0.079607 19.055C-0.274393 37.6477 -0.759247 63.1112 30.1527 73.857C30.4268 73.9523 30.7126 74 30.9985 74C31.2843 74 31.5704 73.9523 31.8442 73.857C62.7586 63.1109 62.2744 37.6466 61.9204 19.0536ZM30.9988 68.6611C4.48773 59.0025 4.88856 37.8442 5.24429 19.1538C5.26564 18.032 5.2863 16.9448 5.30076 15.8791C15.6453 15.4412 23.9174 12.2974 30.9988 6.11063C38.0809 12.2974 46.3544 15.4415 56.6996 15.8791C56.7141 16.9445 56.7347 18.031 56.7561 19.152C57.1115 37.8431 57.5119 59.0022 30.9988 68.6611Z" fill="white"/>
                     <path d="M39.8925 28.0021L27.4271 40.5031L22.1078 35.1683C21.0992 34.1571 19.4639 34.1571 18.4556 35.1683C17.447 36.1802 17.447 37.82 18.4556 38.8315L25.601 45.9977C26.1052 46.5033 26.7663 46.7561 27.4271 46.7561C28.088 46.7561 28.7491 46.5033 29.2533 45.9977L43.5445 31.6654C44.5534 30.6538 44.5534 29.0137 43.5448 28.0025C42.5365 26.9909 40.9012 26.9906 39.8925 28.0021Z" fill="white"/>
                  </svg>
-                <h4 class="extern-info__raiting-title">5 звезд <br><span>безопасности</span></h4> 
+                <h4 class="raiting__title">5 звезд <br><span>безопасности</span></h4> 
                 
             </div>
             <div class="find-moore find-moore_extern">
