@@ -1,3 +1,9 @@
+@media screen and (min-width: 1600px) {
+    .inner__img {
+        
+    }
+}
+
 @media screen and (max-width: 1440px) {
     .header {
         margin-left: 40px;
@@ -111,6 +117,9 @@
         max-width: 420px; 
         padding-top: 0;
     }
+    .stear-icon__img path {
+        fill: #E51937;
+    }
     .taho__info,
     .path__info {
         padding-left: 0px;
@@ -143,6 +152,7 @@
     .params__test {
         padding-top: 6px;
         padding-left: 8px;
+        color: #E51937;
     }
 
     .car-intro__features__btn {
@@ -180,7 +190,8 @@
     }
 
     .inner__img {
-        margin-top: -3px;
+        margin-bottom: -5px;
+        margin-top: 100px;
         width: 100%;
     }
 
@@ -415,7 +426,7 @@
         margin-left: 10px;
     }
     .benefits {
-        margin-left: 10px;
+        margin-left: 35px;
     }
     .def-params {
         margin-left: 50px;
@@ -444,7 +455,7 @@
         font-size: 60px;
     }
     .car-intro {
-        height: calc(100vh - 60px);
+        height: calc(100vh - 165px);
     }
     .benefits-specs__title {
         font-size: 27px;
@@ -589,5 +600,70 @@
     }
     .find-moore_extern {
         margin-left: 32px;
+    }
+    .benefits-specs {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 605px) and (max-width: 800px) {
+    .specs-naming__title {
+        font-size: 24px;
+    }
+    .specs-naming__text {
+        font-size: 12px;
+    }
+    .benefits-specs__title,
+    .def-params__title {
+        font-size: 24px;
+    }
+    .benefits-specs__descript {
+        max-width: 250px;
+        font-size: 12px;
+    }
+    .def-params {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .benefits-specs {
+        max-width: 315px;
+        padding-left: 10px;
+    }
+    .def-params__name small {
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 825px) {
+    .benefits-specs__title {
+        font-size: 30px;
+    }
+    .benefits-specs__descript {
+        font-size: 15px;
+    }
+    .def-params {
+        margin: 0;
+        padding-left: 80px;
+    }
+}
+
+@media screen and (min-width: 510px) and (max-width: 605px) {
+    .specs-wrapp,
+    .benefits {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .benefits-specs {
+        padding-left: 0;
+    }
+    .specs-naming {
+        margin-left: 30px;
+    }
+    .find-moore {
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 605px) and (max-width: 650px) {
+    .benefits {
+        margin-left: 10px;
     }
 }
