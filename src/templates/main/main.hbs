@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tesla-Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/media.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/fonts.css" />
-</head>
-<body>
-    <header class="header">
-        <img src="img/header__logo.png" alt="Tesla Logo" class="header__img">
-        <nav class="header__nav">
-            <div class="header__nav-block nav-models">
-                <a href="#" class="nav-models__link active-link">Model S</a>
-                <a href="#" class="nav-models__link">Model X</a>
-                <a href="#" class="nav-models__link">Model 3</a>
-                <a href="#" class="nav-models__link">Roadster</a>
-                <a href="#" class="nav-models__link">Energy</a>
-            </div>
-        </nav>
-        <nav class="header_nav">
-            <div class="header__nav-block nav-user">
-                <a href="#" class="nav-user__link">Магазин</a>
-                <a href="#" class="nav-user__link">Войти</a>
-                <a href="#" class="nav-user__link nav-user__link-burger">
-                    <svg width="24" height="15" viewBox="0 0 24 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.5 1.76471H22.5C22.9999 1.76471 24 0.487058 24 0C24 0 23.5943 8.40983e-06 23.0943 8.40983e-06H0.90566C0.405736 8.40983e-06 0 0 0 0C0 0.487058 1.00008 1.76471 1.5 1.76471Z" fill="#E51937"/>
-                    <path d="M1.5 8.43751H22.5C22.9999 8.43751 24 7.15985 24 6.67279C24 6.67279 23.5943 6.6728 23.0943 6.6728H0.90566C0.405736 6.6728 0 6.67279 0 6.67279C0 7.15985 1.00008 8.43751 1.5 8.43751Z" fill="#E51937"/>
-                    <path d="M1.5 15H22.5C22.9999 15 24 13.7223 24 13.2353C24 13.2353 23.5943 13.2353 23.0943 13.2353H0.90566C0.405736 13.2353 0 13.2353 0 13.2353C0 13.7223 1.00008 15 1.5 15Z" fill="#E51937"/>
-                    </svg>  
-                </a>
-            </div>
-        </nav>
-    </header>
-    <main class="container">
+<main class="container">
         <section class="car-intro">
             <div class="car-intro__name intro">
                 <h1 class="intro__title">Model S</h1>
@@ -116,43 +79,3 @@
             </div>
         </section>
     </main>
-    <section class="extern-info">
-        <div class="extern-info__benefits">
-            <div class="benefits">
-                <div class="benefits-specs">
-                    <h3 class="benefits-specs__title">Самый безопасный автомобиль в мире</h3>
-                    <p class="benefits-specs__descript">
-                        Модель S достигла наивысшей оценки безопасности любого автомобиля, 
-                        когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных
-                        случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
-                    </p> 
-                </div>
-                <div class="benefits-specs def-params">
-                    <h3 class="def-params__title">Оценка защиты: </h3>
-                    <span class="def-params__name">Спереди <span class="def-params__name_raiting"></span> </span>
-                    <span class="def-params__name">Сбоку <span class="def-params__name_raiting"></span> </span>
-                    <span class="def-params__name">Сбоку <small>(стойка)</small> <span class="def-params__name_raiting"></span> </span>
-                    <span class="def-params__name">Водитель <span class="def-params__name_raiting"></span> </span>
-                    <span class="def-params__name">Пассажир <span class="def-params__name_raiting"></span> </span>
-                </div>
-            </div>
-            <div class="raiting">
-                <svg width="55" height="70" viewBox="0 0 62 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M61.9204 19.0536C61.8825 17.0557 61.8464 15.1683 61.8464 13.3424C61.8464 11.9119 60.6904 10.7522 59.2637 10.7522C48.2184 10.7522 39.8089 7.56873 32.7991 0.73341C31.7963 -0.244643 30.2006 -0.244297 29.1982 0.73341C22.1891 7.56873 13.7809 10.7522 2.73633 10.7522C1.31 10.7522 0.153644 11.9119 0.153644 13.3424C0.153644 15.1687 0.117831 17.0567 0.079607 19.055C-0.274393 37.6477 -0.759247 63.1112 30.1527 73.857C30.4268 73.9523 30.7126 74 30.9985 74C31.2843 74 31.5704 73.9523 31.8442 73.857C62.7586 63.1109 62.2744 37.6466 61.9204 19.0536ZM30.9988 68.6611C4.48773 59.0025 4.88856 37.8442 5.24429 19.1538C5.26564 18.032 5.2863 16.9448 5.30076 15.8791C15.6453 15.4412 23.9174 12.2974 30.9988 6.11063C38.0809 12.2974 46.3544 15.4415 56.6996 15.8791C56.7141 16.9445 56.7347 18.031 56.7561 19.152C57.1115 37.8431 57.5119 59.0022 30.9988 68.6611Z" fill="white"/>
-                    <path d="M39.8925 28.0021L27.4271 40.5031L22.1078 35.1683C21.0992 34.1571 19.4639 34.1571 18.4556 35.1683C17.447 36.1802 17.447 37.82 18.4556 38.8315L25.601 45.9977C26.1052 46.5033 26.7663 46.7561 27.4271 46.7561C28.088 46.7561 28.7491 46.5033 29.2533 45.9977L43.5445 31.6654C44.5534 30.6538 44.5534 29.0137 43.5448 28.0025C42.5365 26.9909 40.9012 26.9906 39.8925 28.0021Z" fill="white"/>
-                 </svg>
-                <h4 class="raiting__title">5 звезд <br><span>безопасности</span></h4> 
-                
-            </div>
-            <div class="find-moore find-moore_extern">
-                <button class="find-moore__btn-read">Узнать больше</button>
-                <a href="#" class="find-moore__btn-order">Заказать</a>
-            </div>
-        </div>
-        <div class="extern-info__overview">
-            <img src="img/tesla-exterior.png" alt="Model S Appearance" class="extern-info_overview-img">
-            <div class="extern-info__overview-hero-img"></div>
-        </div>
-    </section>
-</body>
-</html>
